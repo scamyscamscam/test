@@ -16,5 +16,5 @@ function igh(id){
     x = Number(counter);
     x--;
     stevilka.innerHTML = x;
-    return localStorage.setItem('num',0);
+    return localStorage.setItem('num',x);
 }
