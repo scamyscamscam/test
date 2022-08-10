@@ -1,4 +1,4 @@
-localStorage.setItem('num');
+
 
 
 function pls(id){
@@ -7,7 +7,8 @@ function pls(id){
     x = Number(counter);
     x++;
     stevilka.innerHTML = x;
-    return localStorage.setItem('num',x);
+    localStorage.setItem('num',x);
+    return;
 }
 
 function igh(id){
@@ -16,5 +17,6 @@ function igh(id){
     x = Number(counter);
     x--;
     stevilka.innerHTML = x;
-    return localStorage.setItem('num',x);
+    localStorage.setItem('num',x);
+    return; 
 }
