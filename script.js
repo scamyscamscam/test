@@ -1,4 +1,4 @@
-localStorage.setItem('num',0);
+localStorage.setItem('num');
 
 
 function pls(id){
