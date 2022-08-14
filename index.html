@@ -5,26 +5,24 @@
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        <table class="tabela">
-            <tr class="prva">
-                <td>
-                    <h2 class="naslov">Zojin sarkazm</h2>
-                </td>
-            </tr>
-            <tr class="druga">
-                <td>
-                    <h2 id="count" class="stevec">0</h2>
-                </td>
-            </tr>
-            <tr class="tretja">
-                <td class="xtretja">
-                    <button onclick="pls('count')">add</button>
-                    <button onclick="igh('count')" class="desni">take</button> 
-                </td>
-            </tr>
-        </table>
+        <div class="prva">
+            <h1 class="naslov">Zojin sarkazm</h1>
+        </div>
+        <div class="druga">
+            <h1 class="stevec" id="count">55</h1>
+        </div>
+        <div class="border">
+            <div class="bar" id="progress">0%
+            </div>
+        </div>
+        <div>
+            <button onclick="pls('count')">Add</button>
+            <button class="levi" onclick="igh('count')">Take</button>
+        </div>
         <script>
-            document.getElementById('count').innerHTML = localStorage.getItem('num')
+            document.getElementById('count').innerHTML = localStorage.getItem('num');
+            document.getElementById('progress').style.width = localStorage.getItem('num') + '%';
+            document.getElementById('progress').innerHTML = localStorage.getItem('num') +'%';
         </script>
     </body>
 </html>

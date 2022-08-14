@@ -12,6 +12,8 @@
 .stevec{
     font-size: 600px;
     text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 .tretja{
     align-content: center;
@@ -29,4 +31,26 @@ button{
 }
 .xtretja{
     align-content: top;
+}
+.bar{
+    height: 24px;
+    background-color: rgb(0, 255, 34);
+    width: 25%;
+    height: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+.bartab{
+    align-content: center;
+}
+.border{
+    background-color: rgb(156, 153, 153);
+    height: 50px;
+    opacity: 50%;
+    margin-bottom: 90px;
+    width: 100%;
+}
+.levi{
+    display: block;
+    float: right;
 }
